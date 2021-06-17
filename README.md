@@ -27,12 +27,6 @@ var result = someFun({someProrpety: 'interview', function(value)
     console.log("First call", counter(3))
     console.log("second call", counter(1))
     console.log("Third call", counter(5))
-// questao 3 
-
-function calculator(n1, n2) {
-    return callback => callback(n1, n2)
-  }
-
 
 //questao 4
 
@@ -47,7 +41,7 @@ if(a == 5){
 }
 console.log(a)
 console.log(b)
-
+//o resultado sera : 4,1,5,1
 
 //questao 5
 
