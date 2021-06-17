@@ -28,7 +28,7 @@ var result = someFun({someProrpety: 'interview', function(value)
     console.log("second call", counter(1))
     console.log("Third call", counter(5))
 // questao 3 
-//Q3 
+
 function calculator(n1, n2) {
     return callback => callback(n1, n2)
   }
